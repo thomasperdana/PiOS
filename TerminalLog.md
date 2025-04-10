@@ -137,3 +137,68 @@ git push -f -u origin main
 #  * [new branch]      main -> main
 # branch 'main' set up to track 'origin/main'.
 ```
+
+## Session: Adding Implementation Guides - [Current Date]
+
+### Adding Detailed Implementation Guide for AI-Powered Bible Study Newsletter
+```bash
+# Check repository status
+git status
+# Output:
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+# 	deleted:    IDEAS.md
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+# 	IDEA1.md
+
+# Create AI-BIBLE-NEWSLETTER-IMPLEMENTATION.md file
+# Added detailed implementation guide for AI-Powered Bible Study Newsletter
+
+# Add files to Git
+git add IDEA1.md AI-BIBLE-NEWSLETTER-IMPLEMENTATION.md
+
+# Check status
+git status
+# Output:
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+# 	new file:   AI-BIBLE-NEWSLETTER-IMPLEMENTATION.md
+# 	new file:   IDEA1.md
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+# 	deleted:    IDEAS.md
+
+# Rename IDEA1.md back to IDEAS.md
+git mv IDEA1.md IDEAS.md
+
+# Check status
+git status
+# Output:
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+# 	new file:   AI-BIBLE-NEWSLETTER-IMPLEMENTATION.md
+
+# Commit changes
+git commit -m "Add detailed implementation guide for AI-Powered Bible Study Newsletter"
+# Output:
+# [main b4c4e56] Add detailed implementation guide for AI-Powered Bible Study Newsletter
+#  1 file changed, 524 insertions(+)
+#  create mode 100644 AI-BIBLE-NEWSLETTER-IMPLEMENTATION.md
+
+# Push changes to GitHub
+git push
+# Output:
+# Enumerating objects: 4, done.
+# ...
+# To https://github.com/thomasperdana/PiOS.git
+#    d2b0c8d..b4c4e56  main -> main
+```

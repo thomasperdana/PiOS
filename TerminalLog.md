@@ -120,4 +120,20 @@ git commit -m "Add clean .env.example file"
 # [main cc3c27d] Add clean .env.example file
 #  1 file changed, 25 insertions(+)
 #  create mode 100644 .env.example
+
+# Update TerminalLog.md with repository cleanup steps
+git add TerminalLog.md
+git commit -m "Update TerminalLog.md with repository cleanup steps"
+# Output:
+# [main 9f84698] Update TerminalLog.md with repository cleanup steps
+#  1 file changed, 84 insertions(+), 3 deletions(-)
+
+# Force push to GitHub with cleaned history
+git push -f -u origin main
+# Output:
+# Enumerating objects: 19, done.
+# ...
+# To https://github.com/thomasperdana/PiOS.git
+#  * [new branch]      main -> main
+# branch 'main' set up to track 'origin/main'.
 ```

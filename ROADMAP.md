@@ -1,6 +1,6 @@
-# Development Roadmap
+# Development Roadmap for Bible Operating System (PiOS)
 
-This document outlines the development plan for implementing passive income ideas leveraging Bible teaching and software engineering skills.
+This document outlines the development plan for implementing the Bible Operating System (PiOS) project, leveraging Bible teaching and software engineering skills.
 
 ## Phase 1: Idea Exploration and Validation
 
